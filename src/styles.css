@@ -1,1 +1,101 @@
-/* You can add global styles to this file, and also import other style files */
+ul {
+    display: flex;
+    justify-content: center;
+}
+
+.coming-soon {
+    width: 100%;
+}
+
+.time-countdown ul {
+    margin: 30px auto;
+}
+
+.time-countdown ul li {
+    width: 12%;
+    margin-right: 4%;
+    font-size: 20px;
+    text-align: center;
+    display: inline-block;
+    padding: 24px 20px;
+    color: #fff;
+    text-shadow: 8px 8px 5px #000;
+}
+
+.time-countdown ul li span {
+    color: #FFF;
+    font-size: 50px;
+    line-height: 60px;
+    font-weight: 700;
+    display: block;
+    text-shadow: 4px 4px 10px #000;
+}
+@media(max-height:360px){
+    .time-countdown ul li span {
+        font-size: 30px;
+        line-height: 30px;
+    }
+    ul{
+        justify-content: left;
+        padding-left: 15%;
+    }
+}
+@media(max-width:560px){
+    .time-countdown ul li span {
+        font-size: 30px;
+        line-height: 30px;
+    }
+    ul{
+        justify-content: left;
+        padding-left: 15%;
+    }
+}
+@media(min-width:560px) and (max-width: 1024px){
+    .time-countdown ul li span {
+        font-size: 45px;
+        line-height: 45px;
+    }
+    ul{
+        justify-content: center;
+    }
+    p{
+        font-size: 15px;
+        justify-content: left;
+    }
+}
+.frame{
+    width: 640px;
+    height: 840px;
+}
+@media(max-height:360px){
+    .frame {
+        width: 320px;
+        height: 920px;
+    }
+}
+@media(max-width:560px){
+    .frame {
+        width: 320px;
+        height: 920px;
+    }
+}
+@media(min-width:560px) and (max-width: 1024px){
+    .frame {
+        width: 460px;
+    }
+}
+@media(max-height:360px){
+    .resp-soc {
+        margin-left: 35%;
+    }
+}
+@media(max-width:560px){
+    .resp-soc {
+        margin-left: 35%;
+    }
+}
+@media(min-width:560px) and (max-width: 1024px){
+    .resp-logo {
+        margin-left: 10%;
+    }
+}
