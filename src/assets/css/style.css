@@ -445,3 +445,19 @@ li.social-btn {
     height: 100vh;
     background-repeat: no-repeat;
 }
+@media(max-width:560px) {
+    .bg-tal{
+        background-image: url('../images/mob-1');
+        background-position: center;
+        height: 100vh;
+        background-repeat: no-repeat;
+    }
+}
+@media(min-width:560px) and (max-width: 1024px){
+    .bg-tal{
+        background-image: url('../images/img-4.png');
+        background-position: center;
+        height: 100vh;
+        background-repeat: no-repeat;
+    }
+}
