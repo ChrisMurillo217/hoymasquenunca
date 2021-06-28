@@ -179,7 +179,7 @@ body{
     color: #fff;
 }
 #features{
-    background:url("../images/pattern.png"),url("../images/img-2.jpg");
+    background:url("../images/img-2.jpg");
 }
 div.open-overlay {
     width: 172px;
@@ -247,12 +247,8 @@ div.open-overlay {
         padding-top: 50px;
     }
 }
-/*-------------------------------------------------------------------*/
-/*  5.CONTACT
-/*-------------------------------------------------------------------*/
 .contact{
     text-align: center;
-    padding: 100px 0px;
 }
 .contact h4{
     font-size: 22px;
@@ -437,4 +433,15 @@ li.social-btn {
 .copyright{
     padding-top: 10px;
 }
-
+.bg-ple{
+    background-image: url('../images/img-3.png');
+	background-position: center;
+    height: 100vh;
+    background-repeat: no-repeat;
+}
+.bg-tal{
+    background-image: url('../images/img-4.png');
+	background-position: center;
+    height: 100vh;
+    background-repeat: no-repeat;
+}
