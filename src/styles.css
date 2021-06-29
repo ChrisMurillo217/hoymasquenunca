@@ -266,6 +266,16 @@ small {
     background-color: #5B00D0;
     line-height : -5px;
 }
+.pred {
+    color: white;
+    font-size: 20px;
+}
+.pred:hover{
+    color: white;
+}
+.center {
+    justify-content: center;
+}
 @media(max-height:360px){
     .container {
         width: 100%;

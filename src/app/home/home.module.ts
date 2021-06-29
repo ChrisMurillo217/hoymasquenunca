@@ -7,6 +7,7 @@ import { GuestComponent } from './guest/guest.component';
 import { InformationComponent } from './information/information.component';
 import { IndexComponent } from './index/index.component';
 import { RouterModule } from '@angular/router';
+import { PaymentComponent } from './payment/payment.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { RouterModule } from '@angular/router';
     HomeComponent,
     GuestComponent,
     InformationComponent,
-    IndexComponent
+    IndexComponent,
+    PaymentComponent
   ],
   exports:[
     IndexComponent,
