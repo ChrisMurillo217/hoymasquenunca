@@ -1,3 +1,7 @@
+@font-face {
+    font-family: Montserrat;
+    src: url(https://fonts.googleapis.com/css2?family=Montserrat);
+}
 ul {
     display: flex;
     justify-content: center;
@@ -18,12 +22,12 @@ ul {
     text-align: center;
     display: inline-block;
     padding: 24px 20px;
-    color: #fff;
+    color: #9447f8;
     text-shadow: 8px 8px 5px #000;
 }
 
 .time-countdown ul li span {
-    color: #FFF;
+    color: #9447f8;
     font-size: 50px;
     line-height: 60px;
     font-weight: 700;
@@ -97,6 +101,82 @@ ul {
 @media(max-width:560px){
     .resp-soc {
         margin-left: 35%;
+    }
+}
+@media(min-width:560px) and (max-width: 1024px){
+    .resp-logo {
+        margin-left: 10%;
+    }
+}
+.title-ple {
+    font-family: Montserrat;
+    font-weight: bold;
+    color: #FFAA00;
+    font-size: 30px;
+    text-align: center;
+    background-color: #5B00D0;
+}
+.subtitle {
+    font-family: Montserrat;
+    color: #fff;
+    font-size: 30px;
+    text-align: left;
+    background-color: #FFAA00;
+}
+.container {
+    width: 80%;
+    height: auto;
+}
+.ple {
+    font-family: Montserrat;
+    text-align: left;
+    color: white;
+    font-size: 26px;
+    font-weight: bold;
+    line-height : 25px;
+}
+.ple-txt {
+    font-family: Montserrat;
+    text-align: left;
+    color: #000;
+    font-size: 20px;
+    font-weight: bold;
+    line-height : -5px;
+}
+.ple-txt-2 {
+    font-family: Montserrat;
+    text-align: left;
+    color: #fff;
+    font-size: 20px;
+    background-color: #5B00D0;
+    line-height : -5px;
+}
+@media(max-height:360px){
+    .container {
+        width: 100%;
+    }
+    .ple{
+        font-size: 18px;
+    }
+    .ple-txt {
+        font-size: 16px;
+    }
+    .ple-txt-2 {
+        font-size: 16px;
+    }
+}
+@media(max-width:560px){
+    .container {
+        width: 100%;
+    }
+    .ple{
+        font-size: 18px;
+    }
+    .ple-txt {
+        font-size: 16px;
+    }
+    .ple-txt-2 {
+        font-size: 16px;
     }
 }
 @media(min-width:560px) and (max-width: 1024px){
