@@ -31,13 +31,15 @@ ul {
     text-shadow: 4px 4px 10px #000;
 }
 @media(max-height:360px){
-    .time-countdown ul li span {
+    .time-countdown ul span {
         font-size: 30px;
         line-height: 30px;
     }
     ul{
         justify-content: left;
-        padding-left: 15%;
+    }
+    p{
+        font-size: 12px;
     }
 }
 @media(max-width:560px){
@@ -48,6 +50,9 @@ ul {
     ul{
         justify-content: left;
         padding-left: 15%;
+    }
+    p{
+        font-size: 12px;
     }
 }
 @media(min-width:560px) and (max-width: 1024px){

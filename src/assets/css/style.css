@@ -446,7 +446,7 @@ li.social-btn {
     background-repeat: no-repeat;
 }
 @media(max-width:560px) {
-    .bg-tal{
+    .bg-tal-mob{
         background-image: url('../images/mob-1');
         background-position: center;
         height: 100vh;
@@ -454,7 +454,7 @@ li.social-btn {
     }
 }
 @media(min-width:560px) and (max-width: 1024px){
-    .bg-tal{
+    .bg-tal-mob{
         background-image: url('../images/img-4.png');
         background-position: center;
         height: 100vh;
