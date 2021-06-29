@@ -2,7 +2,10 @@
     font-family: Montserrat;
     src: url(https://fonts.googleapis.com/css2?family=Montserrat);
 }
-ul {
+body, html {
+    font-family: Montserrat;
+}
+.ul {
     display: flex;
     justify-content: center;
 }
@@ -151,9 +154,54 @@ ul {
     background-color: #5B00D0;
     line-height : -5px;
 }
+.title-taller {
+    font-family: Montserrat;
+    text-align: right;
+    font-weight: bold;
+    color: #fff;
+    font-size: 20px;
+    line-height : -5px;
+}
+.tal-txt{
+    font-family: Montserrat;
+    text-align: left;
+    color: #3e028d;
+    font-size: 18px;
+    font-weight: bold;
+    line-height : -5px;
+}
+small {
+    color: white;
+}
+.box-date {
+    height: 40px;
+    padding-top: 8px;
+    background-color: white;
+    font-family: Montserrat;
+    text-align: center;
+    color: #5B00D0;
+    font-size: 26px;
+    font-weight: bold;
+    line-height : 25px;
+}
+.box-info {
+    height: 100%;
+    padding-top: 12px;
+    margin-top: 5px;
+    border: white solid;
+    font-family: Montserrat;
+    text-align: left;
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+    line-height : 25px;
+}
 @media(max-height:360px){
     .container {
         width: 100%;
+    }
+    .subtitle{
+        text-align: center;
     }
     .ple{
         font-size: 18px;
@@ -169,6 +217,9 @@ ul {
     .container {
         width: 100%;
     }
+    .subtitle{
+        text-align: center;
+    }
     .ple{
         font-size: 18px;
     }
@@ -179,8 +230,23 @@ ul {
         font-size: 16px;
     }
 }
-@media(min-width:560px) and (max-width: 1024px){
-    .resp-logo {
-        margin-left: 10%;
+@media(min-width:560px) and (max-width: 720px){
+    .container {
+        width: 100%;
+    }
+    .fluid {
+        padding-top: 24%;
+    }
+    .subtitle{
+        text-align: center;
+    }
+    .ple{
+        font-size: 22px;
+    }
+    .ple-txt {
+        font-size: 20px;
+    }
+    .ple-txt-2 {
+        font-size: 20px;
     }
 }

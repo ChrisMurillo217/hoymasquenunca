@@ -29,7 +29,6 @@ export class HomeComponent implements OnInit {
       this.end = new Date('07/08/' + (this.now.getFullYear()) + ' 19:00');
       this.showDate();
     });
-    
   }
   showDate(){
     let distance = this.end - this.now;
@@ -38,5 +37,4 @@ export class HomeComponent implements OnInit {
     this.minutes = Math.floor((distance % this._hour) / this._minute);
     this.seconds = Math.floor((distance % this._minute) / this._second);
   }
-
 }
