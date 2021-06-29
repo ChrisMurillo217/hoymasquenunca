@@ -4,9 +4,9 @@ import { IndexComponent } from './home/index/index.component';
 import { RegistroComponent } from './registro/registro.component';
 
 const APP_ROUTES: Routes = [
-    {path: '', component: IndexComponent, pathMatch: 'full'},
+    {path: '', component: IndexComponent},
     {path: 'registro', component: RegistroComponent},
-    {path: '**', redirectTo: ''}
+    {path: '**', pathMatch: 'full', redirectTo: ''}
 ];
 
 @NgModule({
