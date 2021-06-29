@@ -155,6 +155,7 @@ body, html {
     line-height : -5px;
 }
 .title-taller {
+    padding-top: 3%;
     font-family: Montserrat;
     text-align: right;
     font-weight: bold;
@@ -165,6 +166,15 @@ body, html {
 .tal-txt{
     font-family: Montserrat;
     text-align: left;
+    color: #3e028d;
+    font-size: 18px;
+    font-weight: bold;
+    line-height : -5px;
+}
+.tal-txt-2{
+    font-family: Montserrat;
+    text-align: left;
+    margin-left: 15px;
     color: #3e028d;
     font-size: 18px;
     font-weight: bold;
@@ -184,6 +194,18 @@ small {
     font-weight: bold;
     line-height : 25px;
 }
+.box-date-2 {
+    height: 40px;
+    padding-top: 8px;
+    margin-top: 5PX;
+    background-color: white;
+    font-family: Montserrat;
+    text-align: center;
+    color: #5B00D0;
+    font-size: 26px;
+    font-weight: bold;
+    line-height : 25px;
+}
 .box-info {
     height: 100%;
     padding-top: 12px;
@@ -192,9 +214,57 @@ small {
     font-family: Montserrat;
     text-align: left;
     color: white;
-    font-size: 22px;
+    font-size: 20px;
     font-weight: bold;
     line-height : 25px;
+}
+.box-info-2 {
+    height: 100%;
+    padding-top: 12px;
+    padding-bottom: 8px;
+    margin-top: 5px;
+    border: white solid;
+    font-family: Montserrat;
+    text-align: left;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    line-height : 25px;
+}
+.pag {
+    font-family: Montserrat;
+    text-align: center;
+    color: #3e028d;
+    font-size: 26px;
+    font-weight: bold;
+    line-height : 25px;
+}
+.pag-txt {
+    font-family: Montserrat;
+    text-align: center;
+    color: #000;
+    font-size: 20px;
+    font-weight: bold;
+    line-height : -5px;
+}
+.pag-1 {
+    color: #000;
+}
+.pag-txt-2 {
+    font-family: Montserrat;
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    background-color: #5B00D0;
+    line-height : -5px;
+}
+.pag-txt-3 {
+    font-family: Montserrat;
+    text-align: center;
+    color: #fff;
+    font-size: 15px;
+    background-color: #5B00D0;
+    line-height : -5px;
 }
 @media(max-height:360px){
     .container {
@@ -211,6 +281,43 @@ small {
     }
     .ple-txt-2 {
         font-size: 16px;
+    }
+    .box-date {
+        font-size: 18px;
+    }
+    .box-date-2 {
+        font-size: 18px;
+    }
+    .title-taller{
+        display:none !important;
+    }
+    .box-info{
+        font-size: 16px;
+        line-height : 20px;
+    }
+    .box-info-2{
+        font-size: 16px;
+        line-height : 20px;
+    }
+    .tal-txt{
+        font-size: 16px;
+        line-height : 20px;
+    }
+    .tal-txt-2{
+        font-size: 16px;
+        line-height : 20px;
+    }
+    .pag{
+        font-size: 18px;
+    }
+    .pag-txt {
+        font-size: 16px;
+    }
+    .pag-txt-2 {
+        font-size: 16px;
+    }
+    .pag-txt-3 {
+        font-size: 12px;
     }
 }
 @media(max-width:560px){
@@ -229,8 +336,45 @@ small {
     .ple-txt-2 {
         font-size: 16px;
     }
+    .box-date {
+        font-size: 18px;
+    }
+    .box-date-2 {
+        font-size: 18px;
+    }
+    .title-taller{
+        display:none !important;
+    }
+    .box-info{
+        font-size: 16px;
+        line-height : 20px;
+    }
+    .box-info-2{
+        font-size: 16px;
+        line-height : 20px;
+    }
+    .tal-txt{
+        font-size: 16px;
+        line-height : 20px;
+    }
+    .tal-txt-2{
+        font-size: 16px;
+        line-height : 20px;
+    }
+    .pag{
+        font-size: 18px;
+    }
+    .pag-txt {
+        font-size: 16px;
+    }
+    .pag-txt-2 {
+        font-size: 16px;
+    }
+    .pag-txt-3 {
+        font-size: 12px;
+    }
 }
-@media(min-width:560px) and (max-width: 720px){
+@media(min-width:560px) and (max-width: 1024px){
     .container {
         width: 100%;
     }
@@ -248,5 +392,8 @@ small {
     }
     .ple-txt-2 {
         font-size: 20px;
+    }
+    .title-taller{
+        display:none !important;
     }
 }
