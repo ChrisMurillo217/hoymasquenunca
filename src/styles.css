@@ -301,6 +301,9 @@ small {
     .box-date-2 {
         font-size: 18px;
     }
+    .small {
+        font-size: 14px;
+    }
     .title-taller{
         display:none !important;
     }
