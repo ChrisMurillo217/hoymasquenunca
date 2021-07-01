@@ -1,11 +1,7 @@
-@font-face {
-    font-family: Montserrat;
-    src: url(https://fonts.googleapis.com/css2?family=Montserrat);
-}
 body{
 	overflow-x: hidden;
 	overflow-y: auto;
-    font-family: Montserrat;
+    font-family: 'Roboto', sans-serif;
 }
 .margin-t-50{
     margin-top: 50px;
