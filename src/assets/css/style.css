@@ -1,7 +1,11 @@
+@font-face {
+    font-family: Montserrat;
+    src: url(https://fonts.googleapis.com/css2?family=Montserrat);
+}
 body{
 	overflow-x: hidden;
 	overflow-y: auto;
-    font-family: 'Roboto', sans-serif;
+    font-family: Montserrat;
 }
 .margin-t-50{
     margin-top: 50px;
@@ -182,7 +186,7 @@ body{
     background:url("../images/img-2.jpg");
 }
 div.open-overlay {
-    width: 172px;
+    width: 201px;
     height: 201px;
     margin: 0 auto;
     -webkit-transition: all .6s ease 0s;
