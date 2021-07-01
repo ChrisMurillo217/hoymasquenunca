@@ -279,12 +279,9 @@ small {
 .center {
     justify-content: center;
 }
-.txt-center {
-    text-align: center;
-}
 .inf-txt-2 {
     font-family: Montserrat;
-    text-align: left;
+    text-align: center;
     color: #fff;
     font-size: 17px;
     background-color: #5B00D0;
