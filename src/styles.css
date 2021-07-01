@@ -1,7 +1,13 @@
 @font-face {
     font-family: Montserrat;
-    src: url(https://fonts.googleapis.com/css2?family=Montserrat);
-}
+    src: url('./assets/fonts/montserrat-v15-latin-regular.eot'); /* IE9 Compat Modes */
+    src: local(''),
+        url('./assets/fonts/montserrat-v15-latin-regular.eot') format('embedded-opentype'), /* IE6-IE8 */
+        url('./assets/fonts/montserrat-v15-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+        url('./assets/fonts/montserrat-v15-latin-regular.woff') format('woff'), /* Modern Browsers */
+        url('./assets/fonts/montserrat-v15-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+        url('./assets/fonts/montserrat-v15-latin-regular.svg') format('svg'); /* Legacy iOS */
+  }
 .ul {
     display: flex;
     justify-content: center;
@@ -110,7 +116,7 @@
 }
 .title-ple {
     font-family: Montserrat;
-    font-weight: bold;
+    font-weight: bolder;
     color: #FFAA00;
     font-size: 30px;
     text-align: center;
