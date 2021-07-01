@@ -279,6 +279,9 @@ small {
 .center {
     justify-content: center;
 }
+.txt-center {
+    text-align: center;
+}
 @media(max-height:360px){
     .container {
         width: 100%;
