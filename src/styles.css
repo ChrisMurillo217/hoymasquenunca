@@ -282,6 +282,14 @@ small {
 .txt-center {
     text-align: center;
 }
+.inf-txt-2 {
+    font-family: Montserrat;
+    text-align: left;
+    color: #fff;
+    font-size: 17px;
+    background-color: #5B00D0;
+    line-height : -5px;
+}
 @media(max-height:360px){
     .container {
         width: 100%;
@@ -341,6 +349,9 @@ small {
     }
     .pag-txt-3 {
         font-size: 12px;
+    }
+    .inf-txt-2 {
+        font-size: 16px;
     }
 }
 @media(max-width:560px){
@@ -403,6 +414,9 @@ small {
     .pag-txt-3 {
         font-size: 12px;
     }
+    .inf-txt-2 {
+        font-size: 16px;
+    }
 }
 @media(min-width:560px) and (max-width: 1024px){
     .container {
@@ -425,5 +439,8 @@ small {
     }
     .title-taller{
         display:none !important;
+    }
+    .inf-txt-2 {
+        font-size: 16px;
     }
 }
